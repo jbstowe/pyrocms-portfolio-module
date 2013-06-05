@@ -1,0 +1,40 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.projectsIndex{
+	.project{
+		background-color: #f9f9f9;
+		margin-bottom:3em;
+		padding:1em;
+		border: 1px solid #ffffff;
+		img{
+			float:left;
+			margin:0 1em 0 0;
+		}
+		h1{
+			color:#7d7d7d;
+		}
+	}
+}
+
+.singleProject{
+	background:#f9f9f9;
+	padding:1em;
+	h1{
+		font-size:2.5em;
+		color:#7d7d7d;
+		margin-bottom:.5em;
+	}
+}
